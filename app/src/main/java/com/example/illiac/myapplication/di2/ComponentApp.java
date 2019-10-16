@@ -8,7 +8,7 @@ import dagger.android.AndroidInjector;
 
 @Component(modules = {AndroidInjectionModule.class
         , ModuleActivityProvider.class
-        ,ModuleFragment.class
+        , ModuleFragmentProvider.class
 //        ,ModuleApp.class
 })
 public interface ComponentApp extends AndroidInjector<MyApp> {
